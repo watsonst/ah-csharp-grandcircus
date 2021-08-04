@@ -1,1 +1,2 @@
-# ah-csharp-grandcircus
+# Grand Circus After Hours C# Full Stack
+
