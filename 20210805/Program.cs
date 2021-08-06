@@ -12,17 +12,17 @@ namespace _20210805
             string World = "Green";
             string Thought = "I am {0}";
 
-            //string result1 = Hello + " " + World;
-            //Console.WriteLine(result1);
+            string result1 = Hello + " " + World;
+            Console.WriteLine(result1);
 
-            //string result2 = string.Format("I am {0}, {1}", Hello, World);
-            //Console.WriteLine(result2);
+            string result2 = string.Format("I am {0}, {1}", Hello, World);
+            Console.WriteLine(result2);
 
-            //string result3 = $"I keep using {Hello} {World} as an example";
-            //Console.WriteLine(result3);
+            string result3 = $"I keep using {Hello} {World} as an example";
+            Console.WriteLine(result3);
 
-            //string result4 = "This is line 1\n\tThis is \"line\" 2";
-            //Console.WriteLine(result4);
+            string result4 = "This is line 1\n\tThis is \"line\" 2";
+            Console.WriteLine(result4);
 
             string result5 = @"headline\n\tcell1\tcell2\tcell3";
             Console.WriteLine(result5);
