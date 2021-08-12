@@ -6,62 +6,69 @@ namespace _20210805
     {
         static void Main(string[] args)
         {
-            #region Working with Strings
+            #region Math
 
-            string Hello = "Blue";
-            string World = "Green";
-            string Thought = "I am {0}";
+            Console.WriteLine(Math.PI); 
 
-            string result1 = Hello + " " + World;
-            Console.WriteLine(result1);
-
-            string result2 = string.Format("I am {0}, {1}", Hello, World);
-            Console.WriteLine(result2);
-
-            string result3 = $"I keep using {Hello} {World} as an example";
-            Console.WriteLine(result3);
-
-            string result4 = "This is line 1\n\tThis is \"line\" 2";
-            Console.WriteLine(result4);
-
-            string result5 = @"headline\n\tcell1\tcell2\tcell3";
-            Console.WriteLine(result5);
-
-            string justCell1 = result5.Substring(result5.IndexOf("cell1"), 5);
-            Console.WriteLine(justCell1);
-
-            int SecondCIndex = result5.LastIndexOf('c', result5.Length - 1);
-            Console.WriteLine(SecondCIndex);
-            Console.WriteLine(result5.IndexOf("cell2"));
-
-            if(result5.Contains("cell1"))
-            {
-                Console.WriteLine("Yes it is there");
-            }
 
             #endregion
 
-            #region Implicit Conversions
+            // #region Working with Strings
 
-            //int cost = 100;
-            //double actualCost = cost;
-            //var anotherCost = cost;
-            //Console.WriteLine(cost);
-            //Console.WriteLine(actualCost);
-            //Console.WriteLine(anotherCost);
+            // string Hello = "Blue";
+            // string World = "Green";
+            // string Thought = "I am {0}";
 
-            #endregion
+            // string result1 = Hello + " " + World;
+            // Console.WriteLine(result1);
 
-            #region Explicit Conversions
+            // string result2 = string.Format("I am {0}, {1}", Hello, World);
+            // Console.WriteLine(result2);
 
-            //double startAsDouble = 100.50;
-            //int endAsInt = (int)startAsDouble;
-            //Console.WriteLine(startAsDouble);
-            //Console.WriteLine(endAsInt);
+            // string result3 = $"I keep using {Hello} {World} as an example";
+            // Console.WriteLine(result3);
 
-            #endregion
+            // string result4 = "This is line 1\n\tThis is \"line\" 2";
+            // Console.WriteLine(result4);
 
-            #region TryParse and Parse
+            // string result5 = @"headline\n\tcell1\tcell2\tcell3";
+            // Console.WriteLine(result5);
+
+            // string justCell1 = result5.Substring(result5.IndexOf("cell1"), 5);
+            // Console.WriteLine(justCell1);
+
+            // int SecondCIndex = result5.LastIndexOf('c', result5.Length - 1);
+            // Console.WriteLine(SecondCIndex);
+            // Console.WriteLine(result5.IndexOf("cell2"));
+
+            // if(result5.Contains("cell1"))
+            // {
+            //     Console.WriteLine("Yes it is there");
+            // }
+
+            // #endregion
+
+            // #region Implicit Conversions
+
+            // //int cost = 100;
+            // //double actualCost = cost;
+            // //var anotherCost = cost;
+            // //Console.WriteLine(cost);
+            // //Console.WriteLine(actualCost);
+            // //Console.WriteLine(anotherCost);
+
+            // #endregion
+
+            // #region Explicit Conversions
+
+            // //double startAsDouble = 100.50;
+            // //int endAsInt = (int)startAsDouble;
+            // //Console.WriteLine(startAsDouble);
+            // //Console.WriteLine(endAsInt);
+
+            // #endregion
+
+            // #region TryParse and Parse
 
             //string startAs100Double = "100";
             //var number = int.Parse(startAs100Double); // Can be unsafe
@@ -77,7 +84,7 @@ namespace _20210805
             //    Console.WriteLine("Nope... Sorry");
             //}
 
-            #endregion
+            // #endregion
         }
     }
 }
