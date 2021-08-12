@@ -26,7 +26,7 @@ namespace _20210812
 
         static void Main(string[] args)
         {
-            string testString = "ThePowerIsOut";
+            string testString = "This is a new example";
 
             char[] testStringChar = testString.ToCharArray();
             char[] newStringChar = new char[testString.Length];
